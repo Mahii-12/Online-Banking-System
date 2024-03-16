@@ -1,7 +1,7 @@
 # Technology Stack:
 
 ## Java, Maven, Spring Boot, Hibernate: 
-* I chose Java as the programming language due to its robustness and widespread usage. Spring Boot simplifies the setup of Spring-based applications, while Hibernate facilitates object-relational mapping (ORM) and Spring Security with JWT authentication and authorization mechanisms., streamlining database interactions.
+* I chose Java as the programming language due to its robustness and widespread usage. Spring Boot simplifies the setup of Spring-based applications, while Hibernate facilitates object-relational mapping (ORM) for  streamlining database interactions and Spring Security with JWT authentication and authorization mechanisms.
 
 ## MySQL Database:
 * Utilized MySQL database to store user, account, and transaction data. MySQL offers robust relational database management capabilities, ensuring efficient data storage and retrieval.
@@ -21,7 +21,7 @@
 * Developed a TransactionService class to facilitate transactions for users and their accounts. Implemented transactional operations such as Deposit, Withdrawal, and Transfer to enable seamless fund management.
 
 ## Authorization Endpoints:
-* Configured authorization endpoints (/users/**, /account/**, and /transaction/**) to permit all REST endpoints. This allowed users convenient access to system functionalities without authentication barriers.
+* Configured authorization endpoints to permit all REST endpoints. This allowed users convenient access to system functionalities without authentication barriers.
 > Endpoints:
  ```json
 {
